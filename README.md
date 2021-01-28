@@ -4,4 +4,4 @@ A basic NVDA add-on that beeps when the focus in Notepad is changed. Initial cod
 
 ## Change Log
 
-(CHANGES.md)[Changes file.]
+[CHANGES.md](Changes file.)
