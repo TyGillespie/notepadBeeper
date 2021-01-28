@@ -32,6 +32,6 @@ class AppModule(appModuleHandler.AppModule):
 		ui.message(lineNum)
 
 	@script(gesture="kb:NVDA+shift+control+n")
-	def script_launchNotepad(self. jesture):
+	def script_launchNotepad(self, jesture):
 		#Launch Notepad.exe using subprocess.popen.
 		subprocess.Popen("notepad.exe", startupinfo=info)
