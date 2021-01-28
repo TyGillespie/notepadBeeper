@@ -1,7 +1,6 @@
-# notepad.py
 # A part of notepad_beeper
 #
-# Copyright (C) 2020, Ty Gillespie. All rights reserved.
+# Copyright (C) 2020-2021, Ty Gillespie. All rights reserved.
 # Licensed under the GPL.
 #
 # Initial code was from the NVDA Developers guide, with some modifications.
@@ -12,7 +11,7 @@
 # 2020.1 (8 September, 2020)
 # Added a new command (NVDA plus Shift plus L to speak the current line.
 # 2020.2, 22 September, 2020
-# Fromatted code for pep-8
+# Formatted code for pep-8
 # Added Control+NVDA+Shift+N to open an untitled Notepad file.
 
 """Main appModule.
