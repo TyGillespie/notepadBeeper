@@ -30,8 +30,3 @@ class AppModule(appModuleHandler.AppModule):
 		lineNumList=api.getStatusBarText(api.getStatusBar()).split()
 		lineNum=lineNumList[2]+lineNumList[3]
 		ui.message(lineNum)
-
-	@script(gesture="kb:NVDA+shift+control+n")
-	def script_launchNotepad(self, jesture):
-		#Launch Notepad.exe using subprocess.popen.
-		subprocess.Popen("notepad.exe", startupinfo=info)
