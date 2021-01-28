@@ -14,12 +14,6 @@ import tones
 import api
 import ui
 from scriptHandler import script
-import addonHandler
-
-
-# Not needed yet but could be useful in the future.
-addonHandler.initTranslation()
-
 
 class AppModule(appModuleHandler.AppModule):
     def event_gainFocus(self, obj, nextHandler):
